@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <h3 class="header-todo">TO-DO</h3>
+  </div>
+  <div class="row">
+    <div class="column">
+      <form id="myForm" action="" onsubmit="formSubmit(event)">
+        <input id="input-field" type="text" class="input-form" placeholder="Whats your plans?" required>
+        <input id="submit-button" type="submit" value="＋">
+      </form>
+      <a href="index.html"><p id="new-to-do">New List ?</p></a>
+    </div>
+    <div class="column">
+      <h3 class="sub-header-1">✗</h3>
+       <ul id="mid" class="ul-middle">
+      </ul> 
+    </div>
+     <div class="column">
+       <h3 class="sub-header-1">✓</h3>
+      <ul id="bot" class="ul-right">
+      </ul>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
